@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Physionary - Master physics with 500+ concepts across 8 categories. Learn science easily!">
+    <title>Physionary: Learn Physics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            max-width: 600px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .description {
+            color: #444;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+
+        .badges {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #f5f5f5;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .badge-icon {
+            font-size: 1.5rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-top: 30px;
+            transition: transform 0.2s;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .feature {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 15px;
+            border: 3px solid #667eea;
+        }
+
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 60px;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .tagline {
+                font-size: 1.2rem;
+            }
+
+            .container {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Physionary</h1>
+        <p class="tagline">Learn Physics</p>
+
+        <p class="description">
+            Master physics concepts with Physionary, the comprehensive learning app designed for students,
+            educators, and science enthusiasts. Explore 500+ physics concepts across 8 major categories
+            with clear explanations and fascinating fun facts.
+        </p>
+
+        <div class="badges">
+            <div class="badge">
+                <span class="badge-icon">📚</span>
+                <span>500+ Concepts</span>
+            </div>
+            <div class="badge">
+                <span class="badge-icon">🎓</span>
+                <span>8 Categories</span>
+            </div>
+            <div class="badge">
+                <span class="badge-icon">⚡</span>
+                <span>Free to Use</span>
+            </div>
+        </div>
+
+        <a href="https://play.google.com/store/apps/details?id=com.physionary.app" class="download-btn">
+            Download on Google Play
+        </a>
+
+        <div class="features">
+            <div class="feature">
+                <h3>📖 Comprehensive</h3>
+                <p>Classical Mechanics, Electromagnetism, Thermodynamics & more</p>
+            </div>
+            <div class="feature">
+                <h3>🎨 Beautiful UI</h3>
+                <p>Modern, vibrant design with swipeable cards</p>
+            </div>
+            <div class="feature">
+                <h3>🧠 Learn Fast</h3>
+                <p>Bite-sized content for quick learning</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Physionary. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="app-ads.txt" style="color: #999; text-decoration: none;">app-ads.txt</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
